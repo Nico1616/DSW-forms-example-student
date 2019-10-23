@@ -1,0 +1,15 @@
+{% extends "layout.HTML" %}
+
+{% set active_page = "page2"%}
+
+{% block title %}Page2{% endblock %}
+{% block content %}
+	<h1>Liters to Gallons</h1>
+	
+	<form action = '/response3'>
+		Liters to Gallons<br>
+		<input type = "text" name = "Dollars2">
+		<br><br>
+		<input type = "submit">
+	</form>
+{% endblock %}
